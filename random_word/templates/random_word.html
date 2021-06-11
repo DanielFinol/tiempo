@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Palabras Aleatorias</title>
+  </head>
+  <body>
+    <h2>Palabra aleatoria número {{request.session.número}}:</h2>
+    <h1>{{request.palabra}}</h1>
+    <button onClick="window.location.href=window.location.href">¡Otra!</button>
+    <a href="/random_word/reset">Reset</a>
+  </body>
+</html>

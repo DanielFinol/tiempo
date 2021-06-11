@@ -17,6 +17,6 @@ from django.urls import path, include
 
 
 urlpatterns = [
-    path('', include('reloj.urls'))
-    #path('admin/', admin.site.urls),
+    path('', include('reloj.urls')),
+    path('random_word', include('random_word.urls')),
 ]
